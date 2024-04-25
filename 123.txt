@@ -1,0 +1,6 @@
+#! /bin/bash
+sudo su
+apt update 
+apt install apache2
+ls /var/www/html
+echo "Hello World!"
